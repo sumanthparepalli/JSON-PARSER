@@ -1,0 +1,10 @@
+insert node(a2[]);-->schema details oder $schema,title,desc,type,sig
+a4[]-- > only types of  propeties inorder
+//  a5[]->required (useless)
+a6[]--> only keys
+a7[] --> required fields
+a8[] --> desc
+
+nodes1(head1)  ->a2
+nodes2(head7) ->a7
+nodes3(head48) -> as48(desc)  a8,id(key)  a6,ty(type)  a4

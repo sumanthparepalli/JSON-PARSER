@@ -1,0 +1,52 @@
+{
+	"$schema": ""https://sigmaways.com/hiot/cmdres/schema#",
+	"title": "CommandResponse",
+	"description": " ",
+	"type": " ",
+	"signature": "0xf002",
+	
+	"properties": {
+	
+		"TransactionId": {
+			"description": " ",
+			"type": "number"
+		},
+		
+		"Time": {
+			"description": " ",
+			"type": "hhmmssddmm"
+		},
+		
+		"Result": {
+			"description": " ",
+			"type": "string"
+		},
+		
+		"Value": {
+			"description": " ",
+			"type": "string"
+		},
+		
+		"IsDecoded": {
+			"description": " ",
+			"type": "boolean"
+		},
+		
+		"RecvTime": {
+			"description": " ",
+			"type": "hhmmssddmm"
+		},
+		
+		"RespTime": {
+			"description": " ",
+			"type": "hhmmssddmm"
+		},
+		
+		"Cost": {
+			"description": " ",
+			"type": "number"
+		}
+	},
+	
+	"required":["TransactionId", "Time", "Result", "IsDecoded", "RecvTime", "RespTime"]
+}

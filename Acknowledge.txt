@@ -1,0 +1,14 @@
+{
+	"$schema": "https://sigmaways.com/hiot/ack/schema#",
+	"title": "Acknowledge",
+	"description": " ",
+	"type": " ",
+	"signature": "0xf00c",
+	"properties": {
+		"TransactionId": {
+			"description": " ",
+			"type": "number"
+		}
+	},
+	"required":["TransactionId"]
+}

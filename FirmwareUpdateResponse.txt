@@ -1,0 +1,26 @@
+{
+   "$schema": "https://sigmaways.com/hiot/fur/schema#",
+   "title": "FirmwareUpdateResponse",
+   "description": " ",
+   "type": " ",
+   "Signature": "0xf007",
+	
+   "properties": {
+	
+      "time": {
+         "description": " ",
+         "type": "HHMMSSDDMM"
+      },
+	  "length": {
+         "description": " ",
+         "type": "number"
+      },
+      "Response": {
+         "description": " ",
+         "type": "String"
+      }
+   },
+	
+   "required":["time", "length", "Response"]
+}
+

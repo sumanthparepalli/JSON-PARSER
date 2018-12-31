@@ -1,0 +1,6 @@
+{
+ "signature": "0xf004",
+ "TransactionId": 1234,
+ "length": 23, 
+ "Snippet": "Hello"
+}

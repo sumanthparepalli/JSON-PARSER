@@ -1,0 +1,26 @@
+{
+	"$schema": "https://sigmaways.com/hiot/configLog/schema#",
+	"title": "ConfigLog",
+	"description": " ",
+	"type": " ",
+	"signature": "0xf003",
+	
+	"properties": {
+	
+		"TransactionId": {
+			"description": " ",
+			"type": "number"
+		},
+		
+		"IsEnable": {
+			"description": " ",
+			"type": "boolean"
+		},
+		
+		"level": {
+			"description": " ",
+			"type": "number"
+		}
+	
+	"required":["TransactionId", "IsEnable"]
+}

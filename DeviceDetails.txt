@@ -1,0 +1,31 @@
+{
+   "$schema": "https://sigmaways.com/hiot/DeviceDetails/schema#",
+   "title": "DeviceDetails",
+   "description": " ",
+   "type": " ",
+   "Signature": "0fx00b",
+	
+   "properties": {
+	
+      "Name": {
+         "description": "",
+         "type": "string"
+      },
+		
+      "Priority": {
+         "description": "",
+         "type": "Number"
+      },
+		
+      "isEnable": {
+         "description": "",
+         "type": "Boolean",
+         
+      },
+      "placed": {
+         "description": "The device is configured in which section of a big area",
+         "type": "string"
+      }
+   },
+"required":["Name", "Priority", "isEnable", "Placed"]
+}

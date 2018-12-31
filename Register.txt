@@ -1,0 +1,57 @@
+{
+	"$schema": ""https://sigmaways.com/hiot/register/schema#",
+	"title": "Register",
+	"description": " ",
+	"type": " ",
+	"signature": "0xf004",
+	
+	"properties": {
+	
+		"TransactionId": {
+			"description": " ",
+			"type": "number"
+		},
+		
+		"DeviceName": {
+			"description": " ",
+			"type": "string"
+		},
+		
+		"DeviceNumber": {
+			"description": " ",
+			"type": "ArrayNumber"
+		},
+		
+		"Priority": {
+			"description": " ",
+			"type": "number"
+		},
+		
+		"Operation": {
+			"description": " ",
+			"type": "add/delete/modify/mute/unmute"
+		},
+
+		"MacAddress" :{
+			"description": "",
+			"type": "string"
+		},
+
+		"IsPeriodic": {
+			"description": " ",
+			"type": "boolean"
+		},
+
+		"Periodicity": {
+			"description": " ",
+			"type": "number"
+		},
+		
+		"Cost": {
+			"description": " ",
+			"type": "number"
+		}
+	},
+	
+	"required":["TransactionId", "DeviceName", "DeviceNumber", "Priority", "Operation", "Cost"]
+}

@@ -1,0 +1,30 @@
+{
+   "$schema": "https://sigmaways.com/hiot/vcr/schema#",
+   "title": "VoiceCommandResponse",
+   "description": " ",
+   "type": " ",
+   "Signature": "0xf009",
+	
+   "properties": {
+	
+      "TransactionId": {
+         "description": " ",
+         "type": "Number"
+      },
+      "CRC": {
+         "description": " ",
+         "type": "Number"
+      },
+      "length": {
+         "description": " ",
+         "type": "Number"
+      },
+      "voiceSignature": {
+         "description": " ",
+         "type": "String"
+      }
+   },
+	
+   "required":["TransactionId", "CRC", "length", "voiceSignature"]
+}
+

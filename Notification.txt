@@ -1,0 +1,43 @@
+{
+	"$schema": "https://sigmaways.com/hiot/notification/schema#",
+	"title": "Notification",
+	"description": " ",
+	"type": " ",
+	"signature": "0xf003",
+	
+	"properties": {
+	
+		"TransactionId": {
+			"description": " ",
+			"type": "number"
+		},
+		
+		"Time": {
+			"description": " ",
+			"type": "hhmmssddmm"
+		},
+		
+		"Result": {
+			"description": " ",
+			"type": "string"
+		},
+		
+		"Value": {
+			"description": " ",
+			"type": "ArrayString"
+		},
+		
+		"IsDecoded": {
+			"description": " ",
+			"type": "boolean"
+		},
+		
+		"CRC": {
+			"description": " ",
+			"type": "number"
+		}
+		
+	},
+	
+	"required":["TransactionId", "Time", "Result", "IsDecoded", "CRC"]
+}

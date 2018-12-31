@@ -1,0 +1,39 @@
+{
+   "$schema": "https://sigmaways.com/hiot/fu/schema#",
+   "title": "FirmwareUpdate",
+   "description": " ",
+   "type": " ",
+   "Signature": "0xf006",
+	
+   "properties": {
+
+      "CRC": {
+         "description": " ",
+         "type": "number"
+      },
+	
+      "time": {
+         "description": " ",
+         "type": "HHMMSSDDMM"
+      },
+
+      "length": {
+         "description": " ",
+         "type": "number"
+      },
+			
+      "File": {
+         "description": " ",
+         "type": "String"
+      },
+	  
+      "UniqueValue": {
+         "description": " ",
+         "type": "number"
+      }
+
+   },
+	
+   "required":["CRC", "time", "length", "File", "UniqueValue"]
+}
+

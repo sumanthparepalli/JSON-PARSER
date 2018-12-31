@@ -1,0 +1,25 @@
+{
+   "$schema": "https://sigmaways.com/hiot/vf/schema#",
+   "title": "VideoFile",
+   "description": " ",
+   "type": " ",
+   "Signature": "0xf005",
+	
+   "properties": {
+      "time": {
+         "description": " ",
+         "type": "HHMMSSDDMM"
+      },
+      "Filelength": {
+         "description": " ",
+         "type": "number"
+      },	
+      "File": {
+         "description": " ",
+         "type": "String"
+      }
+   },
+	
+   "required":["time", "Filelength", "File"]
+}
+

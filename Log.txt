@@ -1,0 +1,25 @@
+{
+	"$schema": "https://sigmaways.com/hiot/log/schema#",
+	"title": "Log",
+	"description": " ",
+	"type": " ",
+	"signature": "0xf004",
+	
+	"properties": {
+	
+		"TransactionId": {
+			"description": " ",
+			"type": "number"
+		},
+		"length": {
+			"description": " ",
+			"type": "number"
+		},
+		"Snippet": {
+			"description": " ",
+			"type": "string"
+		}
+	},
+	
+	"required":["TransactionId", "length", "Snippet"]
+}

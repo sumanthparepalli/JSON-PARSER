@@ -1,0 +1,38 @@
+{
+	"$schema": "https://sigmaways.com/hiot/command/schema#",
+	"title": "Command",
+	"description": " ",
+	"type": " ",
+	"signature": "0xf001",
+	
+	"properties": {
+	
+		"TransactionId": {
+			"description": " ",
+			"type": "number"
+		},
+		
+		"Time": {
+			"description": " ",
+			"type": "hhmmssddmm"
+		},
+		
+		"Code": {
+			"description": " ",
+			"type": "number"
+		},
+		
+		"Priority": {
+			"description": " ",
+			"type": "number"
+		},
+		
+		"IsDecoded": {
+			"description": " ",
+			"type": "boolean"
+		}
+		
+	},
+	
+	"required":["TransactionId", "Time", "Code", "Priority", "IsDecoded"]
+}
